@@ -35,13 +35,13 @@ public class Start {
 				boolean answer = StudentDao.insertStudentToDB(st);
 				if (answer) {
 					System.out.println("Student added succesfully...");
+					System.out.println(st);
 					System.out.println("|-----------------------------------------------|");
 				} else {
 					System.out.println("Something went wrong! try again...");
 					System.out.println("|-----------------------------------------------|");
 				}
-				System.out.println(st);
-
+				
 			} else if (c == 2) {
 				// delete student
 				System.out.print("Enter Student Id to delete : ");
