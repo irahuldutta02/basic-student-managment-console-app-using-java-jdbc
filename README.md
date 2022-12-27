@@ -1,4 +1,8 @@
 # basic-student-managment-console-app-using-java-jdbc
+
+
+## This console application is buit using java jdbc with my sql as database.
+
 ### Output :
 ```
 Welcome to Student Management App
